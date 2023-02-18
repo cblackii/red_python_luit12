@@ -2,11 +2,7 @@ import boto3
 
 #replace the keys below
 
-dynamodb = boto3.resource(
-    'dynamodb',
-    aws_access_keyid='' #insert your aws_access_key_id
-    aws_secret_access_key='', #insert your aws_secret_access_key
-    )
+dynamodb = boto3.resource('dynamodb')
 
 #Put Item # Batch Writing
 
