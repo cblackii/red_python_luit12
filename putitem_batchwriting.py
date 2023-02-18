@@ -1,6 +1,5 @@
 import boto3
 
-#replace the keys below
 
 dynamodb = boto3.resource('dynamodb')
 
